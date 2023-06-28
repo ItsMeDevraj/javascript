@@ -18,6 +18,8 @@ anotherName =  "chacha"
 console.log(userName);
 console.log(anotherName);
 
+
+// Non-Primitive Exdample
 let userOne = {
     name: "dev",
     age: 18,
