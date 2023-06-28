@@ -28,4 +28,8 @@ let userOne = {
 
 let userTwo = userOne;
 
+userTwo.name = "golu";
+
+console.log(userOne.name);
+console.log(userTwo.name);
 
