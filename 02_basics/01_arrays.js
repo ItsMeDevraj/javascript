@@ -23,3 +23,13 @@ const newArr = myArr.join();
 // console.log(typeof myArr);
 // console.log(typeof newArr);
 
+console.log(myArr.slice(1, 4));
+console.log(myArr);
+// slice doesn not manipulate the original array.
+// it returns the chunk of array from the given index A to Index B-1. it  does not maipulate the original array. or just returns a copy of that specific part
+
+console.log(myArr.splice(1,4));
+console.log(myArr);
+
+// splice manipulate the original array
+// it removes element from index A to index B from the original array and returns  the  removed  part
